@@ -26,8 +26,6 @@
 		91152F121AA6AE7000358262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91152F141AA6AE7000358262 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91152F171AA6AE7000358262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		91152F221AA6AE7000358262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91152F231AA6AE7000358262 /* RangerWhetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RangerWhetherTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				91152F061AA6AE7000358262 /* RangerWhether */,
-				91152F201AA6AE7000358262 /* RangerWhetherTests */,
 				91152F051AA6AE7000358262 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,23 +75,6 @@
 			children = (
 				91152F081AA6AE7000358262 /* Info.plist */,
 				91152F091AA6AE7000358262 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		91152F201AA6AE7000358262 /* RangerWhetherTests */ = {
-			isa = PBXGroup;
-			children = (
-				91152F231AA6AE7000358262 /* RangerWhetherTests.m */,
-				91152F211AA6AE7000358262 /* Supporting Files */,
-			);
-			path = RangerWhetherTests;
-			sourceTree = "<group>";
-		};
-		91152F211AA6AE7000358262 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				91152F221AA6AE7000358262 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
