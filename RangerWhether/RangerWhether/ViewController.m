@@ -28,7 +28,12 @@
     _myTextView.textColor = [UIColor blackColor];
     [self.view addSubview:_myTextView];
     
-    _myLabel = [[HYMultiLabel alloc] initWithUnevenHeightStrings:@[@"A",@"a",@"B",@"b",@"C",@"c"]
+    _myLabel = [[HYMultiLabel alloc] initWithUnevenHeightStrings:@[[NSString stringWithFormat:@"A"],
+                                                                   [NSString stringWithFormat:@"a"],
+                                                                   [NSString stringWithFormat:@"B"],
+                                                                   [NSString stringWithFormat:@"b"],
+                                                                   [NSString stringWithFormat:@"C"],
+                                                                   [NSString stringWithFormat:@"c"]]
                                                      stringFonts:@[[UIFont systemFontOfSize:25],
                                                                    [UIFont systemFontOfSize:20],
                                                                    [UIFont systemFontOfSize:25],
@@ -48,7 +53,7 @@
                                                                    [UIColor cyanColor],
                                                                    [UIColor purpleColor]]
                 ];
-    _myLabel.frame = CGRectMake(100.0, _myTextView.frame.origin.y+_myLabel.frame.size.height+100.0, 100, 50.0);
+    _myLabel.frame = CGRectMake(100.0, _myTextView.frame.origin.y+_myLabel.frame.size.height+100.0, 320, 300);
     _myLabel.backgroundColor = [UIColor clearColor];
     [self.view addSubview:_myLabel];
 }
