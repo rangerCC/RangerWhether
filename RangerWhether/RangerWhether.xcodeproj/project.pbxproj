@@ -13,6 +13,7 @@
 		91152F131AA6AE7000358262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91152F111AA6AE7000358262 /* Main.storyboard */; };
 		91152F151AA6AE7000358262 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91152F141AA6AE7000358262 /* Images.xcassets */; };
 		91152F181AA6AE7000358262 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91152F161AA6AE7000358262 /* LaunchScreen.xib */; };
+		91A4ACAB1ACB9957007EE2B4 /* HYMultiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A4ACAA1ACB9957007EE2B4 /* HYMultiLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		91152F121AA6AE7000358262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91152F141AA6AE7000358262 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91152F171AA6AE7000358262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		91A4ACA91ACB9957007EE2B4 /* HYMultiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMultiLabel.h; sourceTree = "<group>"; };
+		91A4ACAA1ACB9957007EE2B4 /* HYMultiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMultiLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				91152F141AA6AE7000358262 /* Images.xcassets */,
 				91152F161AA6AE7000358262 /* LaunchScreen.xib */,
 				91152F071AA6AE7000358262 /* Supporting Files */,
+				91A4ACA91ACB9957007EE2B4 /* HYMultiLabel.h */,
+				91A4ACAA1ACB9957007EE2B4 /* HYMultiLabel.m */,
 			);
 			path = RangerWhether;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91152F101AA6AE7000358262 /* ViewController.m in Sources */,
+				91A4ACAB1ACB9957007EE2B4 /* HYMultiLabel.m in Sources */,
 				91152F0D1AA6AE7000358262 /* AppDelegate.m in Sources */,
 				91152F0A1AA6AE7000358262 /* main.m in Sources */,
 			);
